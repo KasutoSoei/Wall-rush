@@ -26,16 +26,8 @@ public class GameManager : MonoBehaviour
         m_HUD.SetActive(false);
         m_Player.SetActive(false);
         m_PlayerCamera.SetActive(false);
-
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
     }
 
-    private void Start()
-    {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
-    }
 
     public void Replay()
     {
