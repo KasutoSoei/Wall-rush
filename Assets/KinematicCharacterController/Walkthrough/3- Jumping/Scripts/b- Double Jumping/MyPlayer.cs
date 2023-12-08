@@ -20,7 +20,7 @@ namespace KinematicCharacterController.Walkthrough.DoubleJumping
 
         private void Start()
         {
-            Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.lockState = CursorLockMode.Locked;
 
             // Tell camera to follow transform
             OrbitCamera.SetFollowTransform(CameraFollowPoint);
@@ -32,10 +32,10 @@ namespace KinematicCharacterController.Walkthrough.DoubleJumping
 
         private void Update()
         {
-            if (Input.GetMouseButtonDown(0))
-            {
-                Cursor.lockState = CursorLockMode.Locked;
-            }
+            // if (Input.GetMouseButtonDown(0))
+            // {
+            //     Cursor.lockState = CursorLockMode.Locked;
+            // }
 
             HandleCharacterInput();
         }
@@ -53,10 +53,10 @@ namespace KinematicCharacterController.Walkthrough.DoubleJumping
             Vector3 lookInputVector = new Vector3(mouseLookAxisRight, mouseLookAxisUp, 0f);
 
             // Prevent moving the camera while the cursor isn't locked
-            if (Cursor.lockState != CursorLockMode.Locked)
-            {
-                lookInputVector = Vector3.zero;
-            }
+            // if (Cursor.lockState != CursorLockMode.Locked)
+            // {
+            //     lookInputVector = Vector3.zero;
+            // }
 
             // Input for zooming the camera (disabled in WebGL because it can cause problems)
             float scrollInput = -Input.GetAxis(MouseScrollInput);

@@ -5,10 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: ab1e8f7978fac9e4c8347c84318663de
+    path: Assets/Scenes/MainMenu.unity
+    guid: 268d6054a1f9b4544abca12eae9c1ea4
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Levels.unity
+    guid: ded8bbc53f8e54c8d82d9dd7b33fe97b
+  - enabled: 1
+    path: Assets/Scenes/parkour_1.unity
+    guid: 8dcfb255ec6244034b55d6651441b221
+  - enabled: 1
+    path: Assets/Scenes/parkour_2.unity
+    guid: bd2fcb49195934c1f8c415d54c79a97d
+  - enabled: 1
+    path: Assets/Scenes/parkour_3.unity
+    guid: 758544a90060f496b861732257da285f
+  - enabled: 1
+    path: Assets/Scenes/finsih.unity
+    guid: e84bd5cf7a78a46c2a86f6dee24a0dc7
   m_configObjects: {}
